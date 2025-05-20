@@ -1,0 +1,101 @@
+body {
+    font-family: "Nanum Gothic", sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .card {
+    cursor: pointer;
+    
+  }
+  
+  .modal-content img {
+    width: 100%;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    background-color: transparent;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar button {
+    background-color: white;
+    color: black;
+    border: 1px black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .navbar button:hover {
+    background-color: #ff9900;
+    color: white;
+    border-color: black;
+  }
+  
+  .menu-title {
+    font-family: "Arial Black", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin: 30px 0 15px;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* 화살표 버튼 */
+  .arrow-button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 0 10px;
+    color: #333;
+    transition: color 0.3s;
+  }
+
+  .arrow-button:hover {
+    color: #ff9900;
+  }
+
+  .payment-text-button {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff4500;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 10px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    animation: glow 1.5s infinite alternate;
+  }
+
+  .payment-text-button:hover {
+    color: #ff6347;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+  }
+
+  @keyframes glow {
+    0% { color: blue; text-shadow: 0 0 5px lightblue; }
+    50% { color: cyan; text-shadow: 0 0 10px lightblue; }
+    100% { color: blue; text-shadow: 0 0 5px lightblue; }
+  }
+
+html {
+    scroll-padding-top: 120px;
+}
+
