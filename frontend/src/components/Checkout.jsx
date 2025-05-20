@@ -136,7 +136,7 @@ export function CheckoutPage() {
                 orderId: generateRandomString(),
                 orderName: "1000원 선결제",
                 successUrl: window.location.origin + "/success",
-                failUrl: window.location.origin + "/fail",
+                failUrl: window.location.origin + "/",
                 customerEmail: "customer123@gmail.com",
                 customerName: "테스트",
                 customerMobilePhone: "01012341234",
