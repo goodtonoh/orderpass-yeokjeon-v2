@@ -62,7 +62,7 @@ function App() {
               <button onClick={() => scrollToSection("drinks")}>음료</button>
             </nav>
 
-            {/* <h1 className="text-center">🍗 깐부치킨 메뉴 🍗</h1> */}
+            {/* <h1 className="text-center">🍗 메뉴 🍗</h1> */}
             {/* 🔥 메뉴 리스트 */}
             <div id="main">
               <h2 className="menu-title">대표메뉴</h2>
