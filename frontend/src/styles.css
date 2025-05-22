@@ -93,9 +93,9 @@ body {
   }
 
   @keyframes glow {
-    0% { color: blue; text-shadow: 0 0 5px lightblue; }
-    50% { color: cyan; text-shadow: 0 0 10px lightblue; }
-    100% { color: blue; text-shadow: 0 0 5px lightblue; }
+    0% { color: orangered; text-shadow: 0 0 5px lightblue; }
+    50% { color: blue; text-shadow: 0 0 10px lightblue; }
+    100% { color: orangered; text-shadow: 0 0 5px lightblue; }
   }
 
 html {
