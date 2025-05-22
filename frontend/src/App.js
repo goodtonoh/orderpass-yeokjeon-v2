@@ -59,6 +59,7 @@ function App() {
               <button onClick={() => scrollToSection("fries")}>튀김류</button>
               <button onClick={() => scrollToSection("soups")}>탕류</button>
               <button onClick={() => scrollToSection("snacks")}>마른안주</button>
+              <button onClick={() => scrollToSection("beer")}>주류</button>
               <button onClick={() => scrollToSection("drinks")}>음료</button>
             </nav>
 
@@ -97,6 +98,11 @@ function App() {
             <div id="snacks">
               <h2 className="menu-title">마른안주</h2>
               <MenuList menu={menu.filter((item) => item.category === "마른안주")} setSelectedImage={setSelectedImage} />
+            </div>
+
+            <div id="beer">
+              <h2 className="menu-title">주류</h2>
+              <MenuList menu={menu.filter((item) => item.category === "주류")} setSelectedImage={setSelectedImage} />
             </div>
 
             <div id="drinks">

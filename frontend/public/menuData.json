@@ -54,6 +54,8 @@
   { "category": "마른안주", "img": "07snacks/7-9마른안주-튀김쥐포.png", "popupImg": "07snacks/popup_마른안주9.png" },
   { "category": "마른안주", "img": "07snacks/7-10마른안주-노가리.png", "popupImg": "07snacks/popup_마른안주10.png" },
 
+  { "category": "주류", "img": "09beer/8-1음료-콜라(355ml).png", "popupImg": "09beer/popup_음료1.png" },
+
   { "category": "음료", "img": "08drinks/8-1음료-콜라(355ml).png", "popupImg": "08drinks/popup_음료1.png" },
   { "category": "음료", "img": "08drinks/8-2음료-사이다(355ml).png", "popupImg": "08drinks/popup_음료2.png" },
   { "category": "음료", "img": "08drinks/8-3음료-환타파인.png", "popupImg": "08drinks/popup_음료3.png" },
