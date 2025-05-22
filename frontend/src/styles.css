@@ -18,7 +18,7 @@ body {
   .navbar {
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 10px;
     background-color: transparent;
     padding: 10px 0 20px;
     position: sticky;
@@ -33,7 +33,7 @@ body {
     border: 1px black;
     padding: 10px 20px;
     border-radius: 20px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
