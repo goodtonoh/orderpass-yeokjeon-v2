@@ -33,8 +33,8 @@
   { "category": "튀김류", "img": "05fries/5-7튀김류-30cm롱김치치즈돈까스.png", "popupImg": "05fries/popup_튀김류7.png" },
   { "category": "튀김류", "img": "05fries/5-8튀김류-고구마프라이즈.png", "popupImg": "05fries/popup_튀김류8.png" },
   { "category": "튀김류", "img": "05fries/5-9튀김류-갈릭빠다포테이토.png", "popupImg": "05fries/popup_튀김류9.png" },
-  { "category": "튀김류", "img": "05fries/5-10안주류-양념감자튀김.png", "popupImg": "05fries/popup_튀김류10.png" },
-  { "category": "튀김류", "img": "05fries/5-11안주류-새우마빡튀김.png", "popupImg": "05fries/popup_튀김류11.png" },
+  { "category": "튀김류", "img": "05fries/5-10튀김류-양념감자튀김.png", "popupImg": "05fries/popup_튀김류10.png" },
+  { "category": "튀김류", "img": "05fries/5-11튀김류-새우마빡튀김.png", "popupImg": "05fries/popup_튀김류11.png" },
 
   { "category": "탕류", "img": "06soups/6-1탕류-할매네바지락탕.png", "popupImg": "06soups/popup_탕류1.png" },
   { "category": "탕류", "img": "06soups/6-2탕류-할매네술국.png", "popupImg": "06soups/popup_탕류2.png" },

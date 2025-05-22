@@ -54,7 +54,7 @@ function App() {
             <nav className="navbar">
               <button onClick={() => scrollToSection("main")}>대표메뉴</button>
               <button onClick={() => scrollToSection("newMenu")}>신메뉴</button>
-              <button onClick={() => scrollToSection("setMenu")}>세트메뉴</button>
+              <button onClick={() => scrollToSection("comboMenu")}>세트메뉴</button>
               <button onClick={() => scrollToSection("sides")}>안주류</button>
               <button onClick={() => scrollToSection("fries")}>튀김류</button>
               <button onClick={() => scrollToSection("soups")}>탕류</button>
@@ -74,7 +74,7 @@ function App() {
               <MenuList menu={menu.filter((item) => item.category === "신메뉴")} setSelectedImage={setSelectedImage} />
             </div>
 
-            <div id="setMenu">
+            <div id="comboMenu">
               <h2 className="menu-title">세트메뉴</h2>
               <MenuList menu={menu.filter((item) => item.category === "세트메뉴")} setSelectedImage={setSelectedImage} />
             </div>
