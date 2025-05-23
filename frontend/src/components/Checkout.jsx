@@ -134,7 +134,7 @@ export function CheckoutPage() {
               // 결제 과정에서 악의적으로 결제 금액이 바뀌는 것을 확인하는 용도입니다.
               await widgets.requestPayment({
                 orderId: generateRandomString(),
-                orderName: "1000원 선결제",
+                orderName: "1000원 선결제 테스트",
                 successUrl: window.location.origin + "/success",
                 failUrl: window.location.origin + "/",
                 customerEmail: "customer123@gmail.com",
