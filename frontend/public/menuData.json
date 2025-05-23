@@ -54,7 +54,13 @@
   { "category": "마른안주", "img": "07snacks/7-9마른안주-튀김쥐포.png", "popupImg": "07snacks/popup_마른안주9.png" },
   { "category": "마른안주", "img": "07snacks/7-10마른안주-노가리.png", "popupImg": "07snacks/popup_마른안주10.png" },
 
-  { "category": "주류", "img": "09beer/8-1음료-콜라(355ml).png", "popupImg": "09beer/popup_음료1.png" },
+  { "category": "주류", "img": "09beer/9-1주류-할맥500cc.png", "popupImg": "09beer/popup_주류1.png" },
+  { "category": "주류", "img": "09beer/9-2주류-역전하이볼.png", "popupImg": "09beer/popup_주류2.png" },
+  { "category": "주류", "img": "09beer/9-3주류-피치오리지널하이볼.png", "popupImg": "09beer/popup_주류3.png" },
+  { "category": "주류", "img": "09beer/9-4주류-오렌지자몽하이볼.png", "popupImg": "09beer/popup_주류4.png" },
+  { "category": "주류", "img": "09beer/9-5주류-유자클래식하이볼.png", "popupImg": "09beer/popup_주류5.png" },
+  { "category": "주류", "img": "09beer/9-6주류-핑크레몬하이볼.png", "popupImg": "09beer/popup_주류6.png" },
+  { "category": "주류", "img": "09beer/9-7주류-내가할레몬주.png", "popupImg": "09beer/popup_주류7.png" },
 
   { "category": "음료", "img": "08drinks/8-1음료-콜라(355ml).png", "popupImg": "08drinks/popup_음료1.png" },
   { "category": "음료", "img": "08drinks/8-2음료-사이다(355ml).png", "popupImg": "08drinks/popup_음료2.png" },
