@@ -35,7 +35,7 @@ function App() {
             <>
             {/* 🔥 선결제 */}
             <button 
-              onClick={() => alert("💵 간편결제 준비중.. ")}
+              onClick={() => navigate("/checkout")}
               className="payment-text-button"
               style={{ marginBottom: "20px" }}
             >
