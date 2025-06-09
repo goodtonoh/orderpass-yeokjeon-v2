@@ -14,7 +14,7 @@ function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/track-visit`) //  Render에 배포된 백엔드 주소로 교체
+    axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/track-visit`)
       .catch(err => console.error('방문자 기록 실패', err));
   }, []);
 

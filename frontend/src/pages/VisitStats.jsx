@@ -15,7 +15,7 @@ function VisitStats() {
 
   useEffect(() => {
     axios
-      .get("https://your-backend.onrender.com/api/visit-stats") // 백엔드 URL에 맞게 수정
+      .get("https://orderpass-v2.onrender.com/api/visit-stats")
       .then((res) => setData(res.data.reverse())) // 오래된 날짜가 위로
       .catch((err) => console.error("방문 통계 가져오기 실패", err));
   }, []);

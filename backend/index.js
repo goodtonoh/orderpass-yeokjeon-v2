@@ -7,12 +7,15 @@ import dbTestRouter from './routes/dbTest.js';
 dotenv.config();
 
 const app = express();
-app.use(cors());
 app.use(express.json());
+
+app.use(cors({
+  origin: "https://menu-yeokjeon-v2.vercel.app",
+}));
 
 app.use('/api/db-test', dbTestRouter);
 
-app.use('/api', visitRoutes); // 👉 http://your-server.com/api/track-visit
+app.use('/api', visitRoutes); // 👉 http://my-server.com/api/track-visit
 
 app.get('/', (req, res) => res.send('✅ Express Backend is running'));
 
