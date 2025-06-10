@@ -7,6 +7,7 @@ import { CheckoutPage } from "./components/Checkout";
 import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashboard";
 import VisitStats from "./pages/VisitStats";
+import NotFound from "./pages/NotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
@@ -128,6 +129,7 @@ function App() {
       <Route path="/admin" element={<LoginPage />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/stats" element={<VisitStats />} />
+      <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>
   );

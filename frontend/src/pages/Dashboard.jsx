@@ -27,7 +27,7 @@ export default function Dashboard() {
     <div className="min-vh-100 bg-white text-dark">
       <div className="container py-4">
         <div className="d-flex justify-content-between align-items-center mb-5">
-          <h1 className="h3 fw-bold mb-0">USER 분석 페이지</h1>
+          <h1 className="h3 fw-bold mb-0">🍻<span class="text-danger"> 역전할머니맥주</span> 분석 페이지</h1>
         </div>
         
         <Tabs
