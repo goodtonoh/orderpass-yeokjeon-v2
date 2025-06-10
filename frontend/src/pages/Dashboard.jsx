@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Tab, Tabs, Button } from 'react-bootstrap';
 import UserStats from './UserStats';
 import VisitStats from './VisitStats';
+import MenuStats from './MenuStats';
 
 export default function Dashboard() {
   const [theme, setTheme] = useState('light');
@@ -39,12 +40,12 @@ export default function Dashboard() {
           <Tab eventKey="user-stats" title="사용자 통계">
             <UserStats />
           </Tab>
-          <Tab eventKey="visit" title="방문자 통계">
+          <Tab eventKey="visit-stats" title="방문자 통계">
             <VisitStats />
           </Tab>
-          {/* <Tab eventKey="menu-stats" title="메뉴별 통계">
+          <Tab eventKey="menu-stats" title="메뉴별 통계">
             <MenuStats />
-          </Tab> */}
+          </Tab>
         </Tabs>
       </div>
     </div>

@@ -4,6 +4,7 @@ import axios from 'axios';
 import MenuList from "./components/MenuList";
 import Modal from "./components/Modal";
 import { CheckoutPage } from "./components/Checkout";
+import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashboard";
 import VisitStats from "./pages/VisitStats";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -71,7 +72,7 @@ function App() {
               <button onClick={() => scrollToSection("drinks")}>음료</button>
             </nav>
 
-            {/* <h1 className="text-center">🍗 메뉴 🍗</h1> */}
+            {/* <h1 className="text-center">🍗 Menu 🍗</h1> */}
             {/* 🔥 메뉴 리스트 */}
             <div id="main">
               <h2 className="menu-title">대표메뉴</h2>
@@ -122,9 +123,10 @@ function App() {
             </>
           } 
         />
-      {/* 🔥 Checkout 페이지 설정 */}
+      {/* 🔥 Routing 페이지 설정 */}
       <Route path="/checkout" element={<CheckoutPage />} />
-      <Route path="/admin" element={<Dashboard />} />
+      <Route path="/admin" element={<LoginPage />} />
+      <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/stats" element={<VisitStats />} />
       </Routes>
     </div>

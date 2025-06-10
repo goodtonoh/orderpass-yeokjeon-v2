@@ -5,7 +5,7 @@ import { Bar, BarChart, ResponsiveContainer, XAxis, YAxis } from 'recharts';
 const chartData = {
   today: [
     { name: "00-04", total: 45 },
-    { name: "04-08", total: 12 },
+    { name: "04-08", total: 15 },
     { name: "08-12", total: 89 },
     { name: "12-16", total: 156 },
     { name: "16-20", total: 203 },
@@ -53,9 +53,9 @@ function UserStats() {
   const [selectedMetric, setSelectedMetric] = useState('total');
 
   const metrics = [
-    { key: 'today', label: '오늘 방문자수', value: '639' },
-    { key: 'week', label: '이번 주', value: '4,567' },
-    { key: 'month', label: '이번 달', value: '2,345' },
+    { key: 'today', label: '오늘 방문자수', value: '634' },
+    { key: 'week', label: '이번 주', value: '1,237' },
+    { key: 'month', label: '이번 달', value: '4,345' },
     { key: 'total', label: 'Total 방문자수', value: '15,678' },
   ];
 
