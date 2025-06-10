@@ -14,7 +14,7 @@ router.post('/track-visit', async (req, res) => {
   }
 });
 
-// /api/visit-stats
+// api/visit-stats
 router.get('/visit-stats', async (req, res) => {
   try {
     const result = await pool.query(`
@@ -24,7 +24,7 @@ router.get('/visit-stats', async (req, res) => {
       FROM visits
       GROUP BY date
       ORDER BY date DESC
-      LIMIT 7
+      LIMIT 30
     `);
     res.status(200).json(result.rows);
   } catch (err) {

@@ -4,6 +4,7 @@ import axios from 'axios';
 import MenuList from "./components/MenuList";
 import Modal from "./components/Modal";
 import { CheckoutPage } from "./components/Checkout";
+import Dashboard from "./pages/Dashboard";
 import VisitStats from "./pages/VisitStats";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
@@ -123,6 +124,7 @@ function App() {
         />
       {/* 🔥 Checkout 페이지 설정 */}
       <Route path="/checkout" element={<CheckoutPage />} />
+      <Route path="/admin" element={<Dashboard />} />
       <Route path="/stats" element={<VisitStats />} />
       </Routes>
     </div>
