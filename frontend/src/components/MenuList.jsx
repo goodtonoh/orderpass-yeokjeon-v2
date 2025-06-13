@@ -1,6 +1,23 @@
 import React from "react";
+import { supabase } from "../lib/supabaseClient";
 
 function MenuList({ menu, setSelectedImage }) {
+  const handleClick = async (item) => {
+    // Modal Popup
+    setSelectedImage(`${process.env.PUBLIC_URL}/img/menu/${item.popupImg}`);
+
+    // Supabase DB 
+    const { error } = await supabase
+      .from('menu')
+      .update({ total_clicks: item.total_clicks + 1 })
+      .eq('name', item.name)
+      .eq('category', item.category);
+
+    if (error) {
+      console.error("DB 저장 오류:", error.message);
+    }
+  };
+
   return (
     <div className="row">
       {menu.map((item, index) => (
@@ -10,12 +27,9 @@ function MenuList({ menu, setSelectedImage }) {
               src={`${process.env.PUBLIC_URL}/img/menu/${item.img}`}
               alt={item.category}
               className="card-img-top img-fluid"
-              onClick={() => setSelectedImage(`${process.env.PUBLIC_URL}/img/menu/${item.popupImg}`)}
+              onClick={() => handleClick(item)}
               style={{ cursor: "pointer" }}
             />
-            {/* <div className="card-body text-center">
-              <h5 className="card-title">{item.category}</h5>
-            </div> */}
           </div>
         </div>
       ))}
@@ -24,4 +38,3 @@ function MenuList({ menu, setSelectedImage }) {
 }
 
 export default MenuList;
-

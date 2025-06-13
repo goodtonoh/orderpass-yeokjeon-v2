@@ -17,7 +17,7 @@ app.use('/api/db-test', dbTestRouter);
 
 app.use('/api', visitRoutes); // 👉 http://my-server.com/api/track-visit
 
-app.get('/', (req, res) => res.send('✅ Express Backend is running'));
+app.get('/', (req, res) => res.send('✅ Orderpass Express is running!'));
 
 const PORT = process.env.PORT || 4000;
 

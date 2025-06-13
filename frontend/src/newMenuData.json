@@ -1,0 +1,421 @@
+[
+  { "category": "대표메뉴",
+    "name": "치즈라볶이",
+    "img": "01main/1-1대표메뉴- 치즈라볶이.png", 
+    "popupImg": "01main/popup_대표메뉴1.png",
+    "totalClicks": "142" 
+  },
+  {
+    "category": "대표메뉴",
+    "name": "30cm롱치즈돈까스", 
+    "img": "01main/1-2대표메뉴-30cm롱치즈돈까스.png", 
+    "popupImg": "01main/popup_대표메뉴2.png",
+    "totalClicks": "107"
+  },
+  {
+    "category": "대표메뉴",
+    "name": "할매네바지락탕",
+    "img": "01main/1-3대표메뉴-할매네바지락탕.png",
+    "popupImg": "01main/popup_대표메뉴3.png",
+    "totalClicks": "95"
+  },
+  {
+    "category": "대표메뉴",
+    "name": "먹태",
+    "img": "01main/1-4대표메뉴-먹태.png",
+    "popupImg": "01main/popup_대표메뉴4.png",
+    "totalClicks": "42"
+  },
+  {
+    "category": "신메뉴",
+    "name": "얼큰수제비",
+    "img": "02newMenu/2-1신메뉴-얼큰수제비.png",
+    "popupImg": "02newMenu/popup_신메뉴1.png",
+    "totalClicks": "110"
+  },
+  {
+    "category": "신메뉴",
+    "name": "꼬꼬껍질말이",
+    "img": "02newMenu/2-2신메뉴-꼬꼬껍질말이.png",
+    "popupImg": "02newMenu/popup_신메뉴2.png",
+    "totalClicks": "78"
+  },
+  {
+    "category": "신메뉴",
+    "name": "새우어묵깡",
+    "img": "02newMenu/2-3신메뉴-새우어묵깡.png",
+    "popupImg": "02newMenu/popup_신메뉴3.png",
+    "totalClicks": "63"
+  },
+  {
+    "category": "세트메뉴",
+    "name": "할맥BOX",
+    "img": "03setMenu/3-1세트메뉴-할맥BOX.png",
+    "popupImg": "03setMenu/popup_세트메뉴1.png",
+    "totalClicks": "150"
+  },
+  {
+    "category": "세트메뉴",
+    "name": "치즈라볶이 범벅세트",
+    "img": "03setMenu/3-2세트메뉴-치즈라볶이 범벅세트.png",
+    "popupImg": "03setMenu/popup_세트메뉴2.png",
+    "totalClicks": "87"
+  },
+  {
+    "category": "세트메뉴",
+    "name": "짜빠구리범벅세트",
+    "img": "03setMenu/3-3세트메뉴-짜빠구리범벅세트.png",
+    "popupImg": "03setMenu/popup_세트메뉴3.png",
+    "totalClicks": "102"
+  },
+  {
+    "category": "안주류",
+    "name": "치즈라볶이",
+    "img": "04sides/4-1안주류- 치즈라볶이.png",
+    "popupImg": "04sides/popup_안주류1.png",
+    "totalClicks": "125"
+  },
+  {
+    "category": "안주류",
+    "name": "짜빠구리",
+    "img": "04sides/4-2안주류- 짜빠구리.png",
+    "popupImg": "04sides/popup_안주류2.png",
+    "totalClicks": "98"
+  },
+  {
+    "category": "안주류",
+    "name": "직화오돌뼈&참치주먹밥",
+    "img": "04sides/4-3안주류- 직화오돌뼈&참치주먹밥.png",
+    "popupImg": "04sides/popup_안주류3.png",
+    "totalClicks": "75"
+  },
+  {
+    "category": "안주류",
+    "name": "바질크림파스타",
+    "img": "04sides/4-4안주류- 바질크림파스타.png",
+    "popupImg": "04sides/popup_안주류4.png",
+    "totalClicks": "60"
+  },
+  {
+    "category": "안주류",
+    "name": "케이준치킨샐러드",
+    "img": "04sides/4-5안주류- 케이준치킨샐러드.png",
+    "popupImg": "04sides/popup_안주류5.png",
+    "totalClicks": "82"
+  },
+  {
+    "category": "안주류",
+    "name": "모듬소세지",
+    "img": "04sides/4-6안주류- 모듬소세지.png",
+    "popupImg": "04sides/popup_안주류6.png",
+    "totalClicks": "115"
+  },
+  {
+    "category": "안주류",
+    "name": "수제소세지",
+    "img": "04sides/4-7안주류- 수제소세지.png",
+    "popupImg": "04sides/popup_안주류7.png",
+    "totalClicks": "55"
+  },
+  {
+    "category": "안주류",
+    "name": "숯불닭꼬치",
+    "img": "04sides/4-8안주류- 숯불닭꼬치.png",
+    "popupImg": "04sides/popup_안주류8.png",
+    "totalClicks": "90"
+  },
+  {
+    "category": "안주류",
+    "name": "염통꼬치",
+    "img": "04sides/4-9안주류- 염통꼬치.png",
+    "popupImg": "04sides/popup_안주류9.png",
+    "totalClicks": "70"
+  },
+  {
+    "category": "안주류",
+    "name": "살얼음파인애플",
+    "img": "04sides/4-10안주류- 살얼음파인애플.png",
+    "popupImg": "04sides/popup_안주류10.png",
+    "totalClicks": "48"
+  },
+  {
+    "category": "안주류",
+    "name": "아이스오색황도",
+    "img": "04sides/4-11안주류- 아이스오색황도.png",
+    "popupImg": "04sides/popup_안주류11.png",
+    "totalClicks": "35"
+  },
+  {
+    "category": "튀김류",
+    "name": "옛날통닭",
+    "img": "05fries/5-1튀김류-옛날통닭.png",
+    "popupImg": "05fries/popup_튀김류1.png",
+    "totalClicks": "180"
+  },
+  {
+    "category": "튀김류",
+    "name": "순살치킨",
+    "img": "05fries/5-2튀김류-순살치킨.png",
+    "popupImg": "05fries/popup_튀김류2.png",
+    "totalClicks": "150"
+  },
+  {
+    "category": "튀김류",
+    "name": "양념순살치킨",
+    "img": "05fries/5-3튀김류-양념순살치킨.png",
+    "popupImg": "05fries/popup_튀김류3.png",
+    "totalClicks": "130"
+  },
+  {
+    "category": "튀김류",
+    "name": "마늘간장순살치킨",
+    "img": "05fries/5-4튀김류-마늘간장순살치킨.png",
+    "popupImg": "05fries/popup_튀김류4.png",
+    "totalClicks": "110"
+  },
+  {
+    "category": "튀김류",
+    "name": "할멘보샤",
+    "img": "05fries/5-5튀김류-할멘보샤.png",
+    "popupImg": "05fries/popup_튀김류5.png",
+    "totalClicks": "90"
+  },
+  {
+    "category": "튀김류",
+    "name": "30cm롱치즈돈까스",
+    "img": "05fries/5-6튀김류-30cm롱치즈돈까스.png",
+    "popupImg": "05fries/popup_튀김류6.png",
+    "totalClicks": "107"
+  },
+  {
+    "category": "튀김류",
+    "name": "30cm롱김치치즈돈까스",
+    "img": "05fries/5-7튀김류-30cm롱김치치즈돈까스.png",
+    "popupImg": "05fries/popup_튀김류7.png",
+    "totalClicks": "170"
+  },
+  {
+    "category": "튀김류",
+    "name": "고구마프라이즈",
+    "img": "05fries/5-8튀김류-고구마프라이즈.png",
+    "popupImg": "05fries/popup_튀김류8.png",
+    "totalClicks": "80"
+  },
+  {
+    "category": "튀김류",
+    "name": "갈릭빠다포테이토",
+    "img": "05fries/5-9튀김류-갈릭빠다포테이토.png",
+    "popupImg": "05fries/popup_튀김류9.png",
+    "totalClicks": "100"
+  },
+  {
+    "category": "튀김류",
+    "name": "양념감자튀김",
+    "img": "05fries/5-10튀김류-양념감자튀김.png",
+    "popupImg": "05fries/popup_튀김류10.png",
+    "totalClicks": "120"
+  },
+  {
+    "category": "튀김류",
+    "name": "새우마빡튀김",
+    "img": "05fries/5-11튀김류-새우마빡튀김.png",
+    "popupImg": "05fries/popup_튀김류11.png",
+    "totalClicks": "60"
+  },
+  {
+    "category": "탕류",
+    "name": "할매네바지락탕",
+    "img": "06soups/6-1탕류-할매네바지락탕.png",
+    "popupImg": "06soups/popup_탕류1.png",
+    "totalClicks": "88"
+  },
+  {
+    "category": "탕류",
+    "name": "할매네술국",
+    "img": "06soups/6-2탕류-할매네술국.png",
+    "popupImg": "06soups/popup_탕류2.png",
+    "totalClicks": "72"
+  },
+  {
+    "category": "탕류",
+    "name": "불짬뽕탕",
+    "img": "06soups/6-3탕류-불짬뽕탕.png",
+    "popupImg": "06soups/popup_탕류3.png",
+    "totalClicks": "105"
+  },
+  {
+    "category": "탕류",
+    "name": "어묵탕",
+    "img": "06soups/6-4탕류-어묵탕.png",
+    "popupImg": "06soups/popup_탕류4.png",
+    "totalClicks": "95"
+  },
+  {
+    "category": "탕류",
+    "name": "통돈까스김치우동",
+    "img": "06soups/6-5탕류-통돈까스김치우동.png",
+    "popupImg": "06soups/popup_탕류5.png",
+    "totalClicks": "65"
+  },
+  {
+    "category": "탕류",
+    "name": "쫄지마라탕",
+    "img": "06soups/6-6탕류-쫄지마라탕.png",
+    "popupImg": "06soups/popup_탕류6.png",
+    "totalClicks": "112"
+  },
+  {
+    "category": "마른안주",
+    "name": "오리지널오징어입",
+    "img": "07snacks/7-1마른안주-오리지널오징어입.png",
+    "popupImg": "07snacks/popup_마른안주1.png",
+    "totalClicks": "130"
+  },
+  {
+    "category": "마른안주",
+    "name": "버터구이오징어입",
+    "img": "07snacks/7-2마른안주-버터구이오징어입.png",
+    "popupImg": "07snacks/popup_마른안주2.png",
+    "totalClicks": "160"
+  },
+  {
+    "category": "마른안주",
+    "name": "먹태",
+    "img": "07snacks/7-3마른안주-먹태.png",
+    "popupImg": "07snacks/popup_마른안주3.png",
+    "totalClicks": "190"
+  },
+  {
+    "category": "마른안주",
+    "name": "버터구이오징어",
+    "img": "07snacks/7-4마른안주-버터구이오징어.png",
+    "popupImg": "07snacks/popup_마른안주4.png",
+    "totalClicks": "145"
+  },
+  {
+    "category": "마른안주",
+    "name": "반건조오징어",
+    "img": "07snacks/7-5마른안주-반건조오징어.png",
+    "popupImg": "07snacks/popup_마른안주5.png",
+    "totalClicks": "110"
+  },
+  {
+    "category": "마른안주",
+    "name": "참쥐포",
+    "img": "07snacks/7-6마른안주-참쥐포.png",
+    "popupImg": "07snacks/popup_마른안주6.png",
+    "totalClicks": "78"
+  },
+  {
+    "category": "마른안주",
+    "name": "아귀포",
+    "img": "07snacks/7-7마른안주-아귀포.png",
+    "popupImg": "07snacks/popup_마른안주7.png",
+    "totalClicks": "60"
+  },
+  {
+    "category": "마른안주",
+    "name": "새끼먹태",
+    "img": "07snacks/7-8마른안주-새끼먹태.png",
+    "popupImg": "07snacks/popup_마른안주8.png",
+    "totalClicks": "85"
+  },
+  {
+    "category": "마른안주",
+    "name": "튀김쥐포",
+    "img": "07snacks/7-9마른안주-튀김쥐포.png",
+    "popupImg": "07snacks/popup_마른안주9.png",
+    "totalClicks": "99"
+  },
+  {
+    "category": "마른안주",
+    "name": "노가리",
+    "img": "07snacks/7-10마른안주-노가리.png",
+    "popupImg": "07snacks/popup_마른안주10.png",
+    "totalClicks": "120"
+  },
+  {
+    "category": "주류",
+    "name": "할맥500cc",
+    "img": "09beer/9-1주류-할맥500cc.png",
+    "popupImg": "09beer/popup_주류1.png",
+    "totalClicks": "250"
+  },
+  {
+    "category": "주류",
+    "name": "역전하이볼",
+    "img": "09beer/9-2주류-역전하이볼.png",
+    "popupImg": "09beer/popup_주류2.png",
+    "totalClicks": "180"
+  },
+  {
+    "category": "주류",
+    "name": "피치오리지널하이볼",
+    "img": "09beer/9-3주류-피치오리지널하이볼.png",
+    "popupImg": "09beer/popup_주류3.png",
+    "totalClicks": "150"
+  },
+  {
+    "category": "주류",
+    "name": "오렌지자몽하이볼",
+    "img": "09beer/9-4주류-오렌지자몽하이볼.png",
+    "popupImg": "09beer/popup_주류4.png",
+    "totalClicks": "130"
+  },
+  {
+    "category": "주류",
+    "name": "유자클래식하이볼",
+    "img": "09beer/9-5주류-유자클래식하이볼.png",
+    "popupImg": "09beer/popup_주류5.png",
+    "totalClicks": "110"
+  },
+  {
+    "category": "주류",
+    "name": "핑크레몬하이볼",
+    "img": "09beer/9-6주류-핑크레몬하이볼.png",
+    "popupImg": "09beer/popup_주류6.png",
+    "totalClicks": "90"
+  },
+  {
+    "category": "주류",
+    "name": "내가할레몬주",
+    "img": "09beer/9-7주류-내가할레몬주.png",
+    "popupImg": "09beer/popup_주류7.png",
+    "totalClicks": "70"
+  },
+  {
+    "category": "음료",
+    "name": "콜라(355ml)",
+    "img": "08drinks/8-1음료-콜라(355ml).png",
+    "popupImg": "08drinks/popup_음료1.png",
+    "totalClicks": "100"
+  },
+  {
+    "category": "음료",
+    "name": "사이다(355ml)",
+    "img": "08drinks/8-2음료-사이다(355ml).png",
+    "popupImg": "08drinks/popup_음료2.png",
+    "totalClicks": "84"
+  },
+  {
+    "category": "음료",
+    "name": "환타파인",
+    "img": "08drinks/8-3음료-환타파인.png",
+    "popupImg": "08drinks/popup_음료3.png",
+    "totalClicks": "60"
+  },
+  {
+    "category": "음료",
+    "name": "토닉워터(300ml)",
+    "img": "08drinks/8-4음료-토닉워터(300ml).png",
+    "popupImg": "08drinks/popup_음료4.png",
+    "totalClicks": "45"
+  },
+  {
+    "category": "음료",
+    "name": "제로콜라",
+    "img": "08drinks/8-5음료-제로콜라.png",
+    "popupImg": "08drinks/popup_음료5.png",
+    "totalClicks": "86"
+  }
+]
