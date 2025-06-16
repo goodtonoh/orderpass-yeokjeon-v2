@@ -6,17 +6,18 @@ function MenuList({ menu, setSelectedImage }) {
     // Modal Popup
     setSelectedImage(`${process.env.PUBLIC_URL}/img/menu/${item.popupImg}`);
 
-    // Supabase DB 
+    // DB 
     const { error } = await supabase
-      .from('menu')
-      .update({ total_clicks: item.total_clicks + 1 })
-      .eq('name', item.name)
-      .eq('category', item.category);
+      .rpc('increment_click', {
+        menu_name: item.name,
+        menu_category: item.category
+      });
 
     if (error) {
       console.error("DB 저장 오류:", error.message);
     }
   };
+  
 
   return (
     <div className="row">

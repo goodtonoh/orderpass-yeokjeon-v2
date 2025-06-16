@@ -1,16 +1,16 @@
 [
-  { "category": "대표메뉴", "img": "01main/1-1대표메뉴- 치즈라볶이.png", "popupImg": "01main/popup_대표메뉴1.png" },
-  { "category": "대표메뉴", "img": "01main/1-2대표메뉴-30cm롱치즈돈까스.png", "popupImg": "01main/popup_대표메뉴2.png" },
-  { "category": "대표메뉴", "img": "01main/1-3대표메뉴-할매네바지락탕.png", "popupImg": "01main/popup_대표메뉴3.png" },
-  { "category": "대표메뉴", "img": "01main/1-4대표메뉴-먹태.png", "popupImg": "01main/popup_대표메뉴4.png" },
+  { "id": 1, "category": "대표메뉴", "name": "치즈라볶이", "img": "01main/1-1대표메뉴- 치즈라볶이.png", "popupImg": "01main/popup_대표메뉴1.png" },
+  { "id": 2, "category": "대표메뉴", "name": "30cm롱치즈돈까스", "img": "01main/1-2대표메뉴-30cm롱치즈돈까스.png", "popupImg": "01main/popup_대표메뉴2.png" },
+  { "id": 3, "category": "대표메뉴", "name": "할매네바지락탕", "img": "01main/1-3대표메뉴-할매네바지락탕.png", "popupImg": "01main/popup_대표메뉴3.png" },
+  { "id": 4, "category": "대표메뉴", "name": "먹태", "img": "01main/1-4대표메뉴-먹태.png", "popupImg": "01main/popup_대표메뉴4.png" },
 
-  { "category": "신메뉴", "img": "02newMenu/2-1신메뉴-얼큰수제비.png", "popupImg": "02newMenu/popup_신메뉴1.png" },
-  { "category": "신메뉴", "img": "02newMenu/2-2신메뉴-꼬꼬껍질말이.png", "popupImg": "02newMenu/popup_신메뉴2.png" },
-  { "category": "신메뉴", "img": "02newMenu/2-3신메뉴-새우어묵깡.png", "popupImg": "02newMenu/popup_신메뉴3.png" },
+  { "id": 5, "category": "신메뉴", "name": "얼큰수제비", "img": "02newMenu/2-1신메뉴-얼큰수제비.png", "popupImg": "02newMenu/popup_신메뉴1.png" },
+  { "id": 6, "category": "신메뉴", "name": "꼬꼬껍질말이", "img": "02newMenu/2-2신메뉴-꼬꼬껍질말이.png", "popupImg": "02newMenu/popup_신메뉴2.png" },
+  { "id": 7, "category": "신메뉴", "name": "새우어묵깡", "img": "02newMenu/2-3신메뉴-새우어묵깡.png", "popupImg": "02newMenu/popup_신메뉴3.png" },
 
-  { "category": "세트메뉴", "img": "03setMenu/3-1세트메뉴-할맥BOX.png", "popupImg": "03setMenu/popup_세트메뉴1.png" },
-  { "category": "세트메뉴", "img": "03setMenu/3-2세트메뉴-치즈라볶이 범벅세트.png", "popupImg": "03setMenu/popup_세트메뉴2.png" },
-  { "category": "세트메뉴", "img": "03setMenu/3-3세트메뉴-짜빠구리범벅세트.png", "popupImg": "03setMenu/popup_세트메뉴3.png" },
+  { "category": "세트메뉴", "name": "할맥BOX", "img": "03setMenu/3-1세트메뉴-할맥BOX.png", "popupImg": "03setMenu/popup_세트메뉴1.png" },
+  { "category": "세트메뉴", "name": "치즈라볶이 범벅세트", "img": "03setMenu/3-2세트메뉴-치즈라볶이 범벅세트.png", "popupImg": "03setMenu/popup_세트메뉴2.png" },
+  { "category": "세트메뉴", "name": "짜빠구리범벅세트", "img": "03setMenu/3-3세트메뉴-짜빠구리범벅세트.png", "popupImg": "03setMenu/popup_세트메뉴3.png" },
 
   { "category": "안주류", "img": "04sides/4-1안주류- 치즈라볶이.png", "popupImg": "04sides/popup_안주류1.png" },
   { "category": "안주류", "img": "04sides/4-2안주류- 짜빠구리.png", "popupImg": "04sides/popup_안주류2.png" },

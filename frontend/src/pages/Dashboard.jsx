@@ -3,7 +3,7 @@ import { Tab, Tabs, Button } from 'react-bootstrap';
 import UserStats from './UserStats';
 import VisitStats from './VisitStats';
 import MenuStats from './MenuStats';
-
+import MenuStatsNew from './MenuStatsNew';
 
 export default function Dashboard() {
   const [theme, setTheme] = useState('light');
@@ -47,8 +47,12 @@ export default function Dashboard() {
           <Tab eventKey="menu-stats" title="메뉴별 통계">
             <MenuStats />
           </Tab>
+          <Tab eventKey="menu-stats2" title="메뉴별 통계 RT">
+            <MenuStatsNew />
+          </Tab>
         </Tabs>
       </div>
     </div>
   );
 }
+
