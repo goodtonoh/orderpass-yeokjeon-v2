@@ -8,7 +8,7 @@ function VisitStats() {
   useEffect(() => {
     axios
       .get("https://orderpass-v2.onrender.com/api/visit-stats")
-      .then((res) => setData(res.data.reverse()))
+      .then((res) => setData(res.data))
       .catch((err) => console.error("방문자 통계 가져오기 실패", err));
   }, []);
 
@@ -18,8 +18,8 @@ function VisitStats() {
         📊 방문자 통계
       </Card.Header> */}
       <Card.Body>
-        <Table bordered striped hover responsive className="text-center mb-0">
-          <thead className="table-light">
+        <Table className="table table-striped">
+          <thead>
             <tr>
               <th>날짜</th>
               <th>방문자 수</th>

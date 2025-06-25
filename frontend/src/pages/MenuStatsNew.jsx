@@ -101,7 +101,7 @@ function MenuStatsNew() {
                 }}
                 formatter={(value) => [`${value}`, "클릭 수"]}
               />
-              <Bar dataKey="total_clicks" fill="#0d6efd" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="total_clicks" fill="#ff6833" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </Card.Body>

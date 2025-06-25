@@ -7,7 +7,9 @@ import { CheckoutPage } from "./components/Checkout";
 import LoginPage from "./pages/LoginPage";
 import Dashboard from "./pages/Dashboard";
 import VisitStats from "./pages/VisitStats";
+import TableViewStats from "./pages/TableViewStats";
 import NotFound from "./pages/NotFound";
+import MainT1 from "./routes/MainT1";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./styles.css";
 
@@ -129,6 +131,8 @@ function App() {
       <Route path="/admin" element={<LoginPage />} />
       <Route path="/dashboard" element={<Dashboard />} />
       <Route path="/stats" element={<VisitStats />} />
+      <Route path="/table-view" element={<TableViewStats />} />
+      <Route path="/:tableId" element={<MainT1 />} />
       <Route path="/*" element={<NotFound />} />
       </Routes>
     </div>

@@ -4,6 +4,7 @@ import UserStats from './UserStats';
 import VisitStats from './VisitStats';
 import MenuStats from './MenuStats';
 import MenuStatsNew from './MenuStatsNew';
+import TableMenuStats from './TableMenuStats';
 
 export default function Dashboard() {
   const [theme, setTheme] = useState('light');
@@ -28,7 +29,7 @@ export default function Dashboard() {
     <div className="min-vh-100 bg-white text-dark">
       <div className="container py-4">
         <div className="d-flex justify-content-between align-items-center mb-5">
-          <h1 className="h3 fw-bold mb-0">🍻<span class="text-danger"> 역전할머니맥주</span> 분석 페이지</h1>
+          <h1 className="h3 fw-bold mb-0">👤 <span class="text-primary"> ADMIN</span> 사용자 분석 페이지</h1>
         </div>
         
         <Tabs
@@ -49,6 +50,9 @@ export default function Dashboard() {
           </Tab>
           <Tab eventKey="menu-stats2" title="메뉴별 통계 RT">
             <MenuStatsNew />
+          </Tab>
+          <Tab eventKey="table-stats" title="테이블별 통계">
+            <TableMenuStats />
           </Tab>
         </Tabs>
       </div>
