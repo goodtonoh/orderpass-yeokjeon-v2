@@ -32,9 +32,12 @@ const TableMenuStats = () => {
   const [endDate, setEndDate] = useState(() => new Date().toISOString().slice(0, 10));
 
   const fetchData = async () => {
-    const fromDateISO = new Date(startDate).toISOString();
-    const toDateISO = new Date(endDate).toISOString();
+    const fromDate = new Date(`${startDate}T00:00:00+09:00`);
+    const toDate = new Date(`${endDate}T23:59:59+09:00`);
 
+    const fromDateISO = fromDate.toISOString();
+    const toDateISO = toDate.toISOString();
+    
     const { data, error } = await supabase.rpc("get_table_menu_clicks", {
       table_param: tableName,
       from_date: fromDateISO,
