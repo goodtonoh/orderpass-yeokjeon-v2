@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { BrowserRouter as Router, Routes, Route, useNavigate } from "react-router-dom";
 import axios from 'axios';
+import ProtectedRoute from "./components/ProtectedRoute";
 import MenuList from "./components/MenuList";
 import Modal from "./components/Modal";
 import { CheckoutPage } from "./components/Checkout";
@@ -47,7 +48,7 @@ function App() {
             <>
             {/* 🔥 선결제 */}
             <button 
-              onClick={() => navigate("/checkout")}
+              onClick={() => alert("💵 간편결제 준비중입니다. ")}
               className="payment-text-button"
               style={{ marginBottom: "20px" }}
             >
@@ -75,7 +76,7 @@ function App() {
               <button onClick={() => scrollToSection("drinks")}>음료</button>
             </nav>
 
-            {/* <h1 className="text-center">🍗 Menu 🍗</h1> */}
+            {/* <h1 className="text-center">Menu</h1> */}
             {/* 🔥 메뉴 리스트 */}
             <div id="main">
               <h2 className="menu-title">대표메뉴</h2>
@@ -129,8 +130,15 @@ function App() {
       {/* 🔥 Routing 페이지 설정 */}
       <Route path="/checkout" element={<CheckoutPage />} />
       <Route path="/admin" element={<LoginPage />} />
-      <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/stats" element={<VisitStats />} />
+      <Route
+        path="/dashboard"
+        element={
+          <ProtectedRoute>
+            <Dashboard />
+          </ProtectedRoute>
+        }
+      />
+      <Route path="/visit-stats" element={<VisitStats />} />
       <Route path="/table-view" element={<TableViewStats />} />
       <Route path="/:tableId" element={<MainT1 />} />
       <Route path="/*" element={<NotFound />} />

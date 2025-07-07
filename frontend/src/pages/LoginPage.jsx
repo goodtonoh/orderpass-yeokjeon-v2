@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Form, Button, Card, Container } from "react-bootstrap";
+import { Form, Button, Card, Container, Toast, ToastContainer } from "react-bootstrap";
 
 function LoginPage() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
+  const [showToast, setShowToast] = useState(false);
   const navigate = useNavigate();
 
   // 🚀 For temporary
@@ -23,9 +24,12 @@ function LoginPage() {
       localStorage.setItem("userId", username);
       localStorage.setItem("isLoggedIn", "true");
 
-      alert("로그인 성공!");
-      navigate("/dashboard");
-      window.location.href = "/dashboard";
+      setShowToast(true);
+
+      setTimeout(() => {
+        navigate("/dashboard");
+        window.location.href = "/dashboard";
+      }, 1500);
     } else {
       alert("아이디 또는 비밀번호가 잘못되었습니다!");
     }
@@ -73,6 +77,21 @@ function LoginPage() {
           </Form>
         </Card.Body>
       </Card>
+      <ToastContainer position="top-center" className="p-3">
+        <Toast
+          onClose={() => setShowToast(false)}
+          show={showToast}
+          delay={1500}
+          autohide
+          bg="light"
+        >
+          <Toast.Header>
+            <strong className="me-auto text-primary">Login</strong>
+            <small>Now</small>
+          </Toast.Header>
+          <Toast.Body className="text-dark">로그인 성공!</Toast.Body>
+        </Toast>
+      </ToastContainer>
     </Container>
   );
 }
