@@ -5,6 +5,7 @@ import { LogOut } from 'lucide-react';
 import UserStats from './UserStats';
 import VisitStats from './VisitStats';
 import MenuStats from './MenuStats';
+import MenuStatsNew from './MenuStatsNew';
 import TableMenuStats from './TableMenuStats';
 
 export default function Dashboard() {
