@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get('/', async (req, res) => {
   try {
-    const result = await pool.query('SELECT NOW()'); // 현재 시간 조회
+    const result = await pool.query('SELECT NOW()');
     res.json({
       message: '✅ Supabase DB 연결 성공!',
       time: result.rows[0].now,

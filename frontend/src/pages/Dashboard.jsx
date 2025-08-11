@@ -5,7 +5,6 @@ import { LogOut } from 'lucide-react';
 import UserStats from './UserStats';
 import VisitStats from './VisitStats';
 import MenuStats from './MenuStats';
-import MenuStatsNew from './MenuStatsNew';
 import TableMenuStats from './TableMenuStats';
 
 export default function Dashboard() {
@@ -49,7 +48,7 @@ export default function Dashboard() {
             {/* <Button variant="outline-secondary" className="me-2" onClick={toggleTheme}>
               Theme
             </Button> */}
-            <Button variant="outline-danger" onClick={handleLogout}>
+            <Button variant="danger" onClick={handleLogout}>
               <LogOut size={16} className="me-1" />
               Log Out
             </Button>

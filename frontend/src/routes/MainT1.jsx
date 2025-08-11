@@ -11,10 +11,10 @@ function MainT1() {
   const [selectedImage, setSelectedImage] = useState(null);
   // const navigate = useNavigate();
 
-  useEffect(() => {
-    axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/track-visit`)
-      .catch(err => console.error('방문자 기록 실패', err));
-  }, []);
+  // useEffect(() => {
+  //   axios.post(`${process.env.REACT_APP_API_BASE_URL}/api/track-visit`)
+  //     .catch(err => console.error('방문자 기록 실패', err));
+  // }, []);
 
   useEffect(() => {
     fetch(`${process.env.PUBLIC_URL}/menuData.json`)
@@ -63,6 +63,14 @@ function MainT1() {
             style={{ marginBottom: "20px" }}
         >
             💳 1000원 결제하기
+        </button> */}
+        
+        {/* <button 
+          onClick={() => alert("💵 간편결제 준비중입니다. ")}
+          className="payment-text-button"
+          style={{ marginBottom: "20px" }}
+        >
+          💳 1000원 결제하기
         </button> */}
 
         {/* 🔥 상단 배너 */}

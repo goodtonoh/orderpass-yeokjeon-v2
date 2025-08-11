@@ -8,7 +8,7 @@ function LoginPage() {
   const [showToast, setShowToast] = useState(false);
   const navigate = useNavigate();
 
-  // 🚀 For temporary
+  // For temporary
   const VALID_USERNAMES = ["admin", "test"];
   const VALID_PASSWORD = "1511";
 

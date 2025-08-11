@@ -3,7 +3,7 @@ import { supabase } from "../lib/supabaseClient";
 
 function MenuList({ menu, setSelectedImage }) {
   const handleClick = async (item) => {
-    // Modal Popup
+    
     setSelectedImage(`${process.env.PUBLIC_URL}/img/menu/${item.popupImg}`);
 
     // DB 

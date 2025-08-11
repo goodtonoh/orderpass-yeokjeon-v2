@@ -48,11 +48,11 @@ function App() {
             <>
             {/* 🔥 선결제 */}
             <button 
-              onClick={() => alert("💵 간편결제 준비중입니다. ")}
+              onClick={() => navigate("/checkout")}
               className="payment-text-button"
               style={{ marginBottom: "20px" }}
             >
-              💳 1000원 결제하기
+              💳 선결제하기
             </button>
             {/* 🔥 상단 배너 */}
             <div className="text-center mb-4">
